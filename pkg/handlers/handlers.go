@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/Dimproject/go-serverless/pkg/user"
+	"github.com/dim-ops/go-serverless/pkg/user"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-sdk-go/aws"

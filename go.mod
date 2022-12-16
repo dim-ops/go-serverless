@@ -1,4 +1,4 @@
-module github.com/Dimproject/go-serverless
+module github.com/dim-ops/go-serverless
 
 go 1.18
 

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/Dimproject/go-serverless/pkg/handlers"
+	"github.com/dim-ops/go-serverless/pkg/handlers"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
@@ -30,7 +30,7 @@ func main() {
 	lambda.Start(handler)
 }
 
-const tableName = "go-serverless-dimproject"
+const tableName = "go-serverless-dim-ops"
 
 func handler(req events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	switch req.HTTPMethod {
