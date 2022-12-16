@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/Dimproject/go-serverless/pkg/validators"
+	"github.com/dim-ops/go-serverless/pkg/validators"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-sdk-go/aws"
